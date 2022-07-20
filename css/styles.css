@@ -1,3 +1,54 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/*********End CSS Reset*************/
 /*******Basic Site Styles************/
 * {
 		box-sizing: border-box;
@@ -11,8 +62,8 @@ body {
 	color: #FFFFFF;
 	font-weight: 600;
 	text-align: none;
-  	text-justify: none;
-  	margin: 0px;
+  text-justify: none;
+  margin: 0px;
 }
 
 
@@ -28,33 +79,32 @@ header {
     margin-inline-end: 0px;
    	margin: 0px;
  }
-div #logo-brand {
 
-}
+
 #logo {
 
 	float: left;
 	height: 118px;
-	margin-left: 15px;
+	margin-left: 45px;
 	margin-top: 3px;
 	margin-right: 15px;
 
 }
 #brand {
 	color: #0A341C;
-
 	float: left;
 	display: block;
 	margin: 37px 10px;
 	text-transform: uppercase;
-  text-shadow: 2px 3px 2px #000000;
-  font-size: 42px;
+  text-shadow: 2px 2px 2px #000000;
+  font-size: 42px;letter-spacing: 1px;
 }
 
 #links {
 	float: right;
-	margin-top: 5px;
-	margin-right: 50px;
+	width: 125px;
+	margin-top: 10px;
+	margin-right: 60px;
 	font-size: 20px;
 	font-weight: bold;
 	padding-bottom: 5px;
@@ -62,9 +112,13 @@ div #logo-brand {
 
 nav a {
 	color: #0A341C;
-	font-weight: bold;
-  text-decoration: none;
+	font-weight: bolder;
+	text-decoration: none;
+ 	text-shadow: .5px .5px .5px #000000;
+}
 
+a:hover {
+	font-size: 1.1em;
 }
 
 .active {
@@ -79,36 +133,40 @@ margin-bottom: 7px;
 width: 25px;
 }
 
-.alpha:first-letter {
-	color: #e38820;
-	font-size: 24px;
-}
+
 /************Main Page Body*********************/
 
-
-
 #about-title {
+	letter-spacing: 1px;
 	text-align: center;
-	color: #FCF7F1 ;
+	font-size: 1.75em;
+	color: #e38820;
+	margin: 20px;
 }
 
 #about-p1, #about-p2 {
 	letter-spacing: 1px;
-	margin-right: 60px;
+	line-height: 1.2;
+	margin-right: 50px;
 	margin-left: 50px;
 	color: #FCF7F1 ;
 
 }
 #about-p2 {
-	margin-bottom: 50px;
+	margin-top: 10px;
+	margin-bottom: 75px;
 }
-#main-body-row {
+.alpha:first-letter {
+	color: #e38820;
+	font-size: 24px;
+}
+#site-content {
 	width: 100%;
 	height: 450px;
 	margin: 0 auto;
 }
 
-#main-pictures-category, #main-stories-category, #main-odds-category {
+.container {
 	position: relative;
 	float: left;
 	display: block;
@@ -117,39 +175,31 @@ width: 25px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   border: 2px solid #e38820;
-   
-   margin-left: 50px;
-    margin-bottom: 15px;
-}
-
-#main-stories-category, #main-pictures-category{
-	margin-right: 10px;
-}
-
-#main-stories-category, #main-odds-category {
-	margin-left: 50px;
+  margin-left: 70px;
+  margin-bottom: 15px;
 }
 
 
-#main-picture-title, #main-stories-title, #main-odds-title {
+h4 {
 	position: relative;
 	font-size: 20px;
-	margin-bottom: 20px;
-
+	margin: 20px;
 	text-align: center;
 }
 
-#main-dahl-img, #main-stories-img, #main-odds-img{
+figure img{
 	position: relative;
 	padding-right: 20px;
 	padding-left: 20px;
 	width: 375px;
 }
+.zoom:hover {
+  transform: scale(1.1);
+}
 
-#main-dahl-capt, #main-stories-capt, #main-odds-capt {
+figcaption {
 	position: relative;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin: 20px;
 	text-align: center;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -164,19 +214,17 @@ footer {
 	width: 100%;
 	height: 75px;
 	clear: both;
-   	background-color:  #e38820;
-   	color: #000000;
+  	background-color:  #e38820;
+ 	color: #000000;
    	margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-   	margin: 5px 0px;
+   	margin: 5px 0px 0px 0px;
  }
-div {
-	position: relative;
-}
 
-#footer-title {
+
+footer h4 {
 	padding-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -187,16 +235,20 @@ div {
    	text-align: center;
 }
 
-#footer-links {
-	position: relative;	
+footer nav{
+	display: block;
+	float: left;
 	font-size: 16px;
+	margin-top: 15px;
   	text-shadow: 1px 1px 1px #636362;
 }
-#yell {
-	position: relative;
+footer a{
+	display: block;
+	float: left;
 }
-#ynps-ico {
-position: relative;
+footer i{
+	display: block;
+	float: left;
 margin-left: 50px;
 margin-top: 0px;
 padding-right: 5px;
