@@ -55,9 +55,7 @@ a {
 		font-family: 'ubuntu', sans-serif;
 }
 
-html {
-	cursor:url("images/bear4.png"), auto;
-}
+
 body {
 	box-sizing: border-box;
 	position: relative;
@@ -95,8 +93,8 @@ header {
 	margin-right: 15px;
 	border-radius: 30px;
 	border: 2xp solid black;
-
 }
+
 #brand {
 	color: #0A341C;
 	float: left;
