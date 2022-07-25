@@ -54,6 +54,10 @@ a {
 		box-sizing: border-box;
 		font-family: 'ubuntu', sans-serif;
 }
+
+html {
+	cursor:url("images/bear4.png"), auto;
+}
 body {
 	box-sizing: border-box;
 	position: relative;
@@ -64,6 +68,7 @@ body {
 	text-align: none;
   text-justify: none;
   margin: 0px;
+
 }
 
 
