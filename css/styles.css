@@ -49,13 +49,13 @@ a {
     background:transparent;
 }
 /*********End CSS Reset*************/
+
+
 /*******Basic Site Styles************/
 * {
 		box-sizing: border-box;
 		font-family: 'ubuntu', sans-serif;
 }
-
-
 body {
 	box-sizing: border-box;
 	position: relative;
@@ -66,15 +66,13 @@ body {
 	text-align: none;
   text-justify: none;
   margin: 0px;
-
 }
-
 
 /***********Header and Navigation************/
 header {
 	width: 100%;
 	height: 125px;
-   	background-color:#e38820;/* #F39E2D; #F1900F;*/
+   	background-color:#e38820;
    	color: #000000;
    	margin-block-start: 0em;
     margin-block-end: 0em;
@@ -83,13 +81,12 @@ header {
    	margin: 0px;
  }
 
-
 #logo {
 
 	float: left;
-	height: 115px;
+	height: 100px;
 	margin-left: 45px;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-right: 15px;
 	border-radius: 30px;
 	border: 2xp solid black;
