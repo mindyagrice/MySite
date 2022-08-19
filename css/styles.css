@@ -146,7 +146,7 @@ width: 25px;
 	margin: 20px;
 }
 
-#about-p1, #about-p2 {
+#about-p1, #about-p2, #about-p3 {
 	letter-spacing: 1px;
 	line-height: 1.2;
 	margin-right: 50px;
@@ -154,7 +154,7 @@ width: 25px;
 	color: #FCF7F1 ;
 
 }
-#about-p2 {
+#about-p3 {
 	margin-top: 10px;
 	margin-bottom: 75px;
 }
