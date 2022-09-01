@@ -205,7 +205,8 @@ figure img{
 figcaption {
 	position: relative;
   	margin: 20px;
-  	width: 350px;
+  inline-size: 350px;
+  	text-overflow: ;
 	text-align: center;
 	font-size: 14px;
 	letter-spacing: 1px;
