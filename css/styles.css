@@ -205,11 +205,13 @@ figure img{
 figcaption {
 	position: relative;
   	margin: 20px;
-    inline-size: 250px;
+    inline-size: 95%;
   	text-overflow: ;
 	text-align: center;
 	font-size: 14px;
-	letter-spacing: 1px;
+	letter-spacing: 1.2px;
+	line-height: 1.2;
+
 }
 
 
