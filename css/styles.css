@@ -187,6 +187,7 @@ width: 25px;
 h4 {
 	position: relative;
 	font-size: 20px;
+	color: #e38820;
 	margin: 20px;
 	text-align: center;
 }
@@ -204,9 +205,10 @@ figure img{
 
 figcaption {
 	position: relative;
-  	margin: 20px;
-    inline-size: 300px;
- 	text-align: center;
+  	margin: 20px 30px 20px 30px;
+	text-align: center;
+    inline-size: 325px;
+ 	color: #FCF7F1;
 	font-size: 14px;
 	letter-spacing: 1.2px;
 	line-height: 1.2;
@@ -237,9 +239,10 @@ footer h4 {
 	padding-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	color: #0A341C;
 	display: block;
 	text-transform: uppercase;
-   	text-shadow: 1px 1px 1px #636362;
+   	text-shadow: 1px 1px 1px #000000;
    	font-size: 24px;
    	text-align: center;
 }
