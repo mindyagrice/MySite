@@ -202,6 +202,21 @@ figure img{
 .zoom:hover {
   transform: scale(1.1);
 }
+figcaption #story{
+	position: relative;
+  	margin: 10px 30px 20px 10px;
+	text-align: center;
+    inline-size: 325px;
+ 	color: #FCF7F1;
+	font-size: 14px;
+	letter-spacing: 1.2px;
+	line-height: 1.2;
+
+}
+#story_pic img{
+	position: relative;
+	width: 250px;
+}
 
 figcaption {
 	position: relative;
